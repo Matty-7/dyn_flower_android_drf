@@ -36,7 +36,8 @@ protobuf {
     protoc {
         if (osdetector.os == "osx") {
             artifact = 'com.google.protobuf:protoc:3.11.4:osx-x86_64'
-        } else {
+        }
+        else {
             artifact = 'com.google.protobuf:protoc:3.11.4'
         }
     }
